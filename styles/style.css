@@ -234,3 +234,57 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-items {
+  list-style: none;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.menu-items a {
+  color: #2c2c2c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #2c2c2c;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  color: #f0efed;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1280px;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #f6a823;
+}

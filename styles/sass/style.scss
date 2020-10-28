@@ -1,2 +1,27 @@
 @import 'setup';
+@import 'utils';
 @import 'nav';
+@import 'footer';
+
+// Global Styles
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper {
+    width: 1280px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+// Header Styles
+
+header {
+    background-color: $orangey-yellow;
+}

@@ -1,0 +1,14 @@
+footer {
+    background-color: $black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    & a {
+        color: $white-shade;
+        text-decoration: none;
+        font-size: 1.5rem;
+        // font-family: $main-font;
+        font-weight: normal; // why does this never work for me?
+    }
+}

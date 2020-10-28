@@ -1,0 +1,27 @@
+// Header Styles
+
+.header-contact {
+    background-image: url(../assets/contact-image-1.jpg);
+    // Object fit?
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+// Section Styles
+
+.body-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    border: 1px solid black;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+input[type=text] {
+    display: flex;
+}

@@ -1,0 +1,25 @@
+// Header Styles
+
+.header-blog {
+    background-image: url(../assets/blog-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+// Section Styles
+
+.main-blog {
+    display: grid;
+    grid-template-columns: 50%;
+    gap: 20px;
+}
+
+// .recent-posts {
+//     grid
+// }
+
+article {
+    grid-column-start: 1;
+}

@@ -1,0 +1,102 @@
+// Header Styles
+
+.header-index {
+    background-color: $orangey-yellow;
+    height: 65vh;
+}
+
+header {
+    position: relative;
+}
+
+.circle-text {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.header-image img {
+    height: 600px;
+    width: 400px;
+}
+
+.header-image {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    box-shadow: 20px 20px white;
+}
+
+// Section Styles
+
+.who {
+    padding: 50px 100px 50px 50px;
+}
+
+.dog-favourites {
+    display: flex;
+}
+
+.dog-image {
+    box-shadow: -20px -20px $rust-red;
+}
+
+.favourite-things {
+    padding: 50px 100px 50px 50px;
+}
+
+.umbrellas-travelled {
+    display: flex;
+}
+
+.where-travelled {
+    padding: 50px 100px 50px 50px;
+}
+
+.beach-chair-image {
+    box-shadow: 20px 20px $orangey-yellow;
+}
+
+.font-awesome {
+    background: $white-shade;
+    padding: 100px 0 100px 0;
+}
+
+.font-awesome1 {
+    display: flex;
+    justify-content: center;
+}
+
+.card,
+.cardi {
+    border: 1px solid black;
+    width: 400px;
+}
+
+.font-awesome2 {
+    display: flex;
+    justify-content: center;
+}
+
+.journey-section {
+    display: flex;
+    justify-content: center;
+    background: $white-shade;
+    padding: 80px 0 80px 0;
+}
+
+.journey-image {
+    box-shadow: 20px 20px $orangey-yellow;
+}
+
+.journey {
+    padding: 50px 100px 50px 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

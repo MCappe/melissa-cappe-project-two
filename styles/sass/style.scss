@@ -16,12 +16,108 @@ body {
 
 .wrapper {
     width: 1280px;
-    max-width: 85%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 // Header Styles
 
-header {
+.header-index {
     background-color: $orangey-yellow;
+}
+
+.header-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-contact {
+    background-image: url(../assets/contact-image-1.jpg);
+    // Object fit?
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+.header-blog {
+    background-image: url(../assets/blog-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+// Section Styles - Index
+
+.who {
+    padding: 50px 100px 50px 50px;
+}
+
+.dog-favourites {
+    display: flex;
+}
+
+.favourite-things {
+    padding: 50px 100px 50px 50px;
+}
+
+.umbrellas-travelled {
+    display: flex;
+}
+
+.where-travelled {
+    padding: 50px 100px 50px 50px;
+}
+
+.font-awesome {
+    margin: 50px 0 50px 0;
+}
+
+.font-awesome1 {
+    display: flex;
+    justify-content: center;
+}
+
+.card,
+.cardi {
+    border: 1px solid black;
+    width: 400px;
+}
+
+.font-awesome2 {
+    display: flex;
+    justify-content: center;
+}
+
+.journey-section {
+    display: flex;
+    justify-content: center;
+}
+
+.journey {
+    padding: 50px 100px 50px 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+// Section Styles - Contact 
+
+.body-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    border: 1px solid black;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+input[type=text] {
+    display: flex;
 }

@@ -221,7 +221,7 @@ html {
           box-sizing: inherit;
 }
 
-.srOnly {
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -242,6 +242,8 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #f6a823;
+  margin: 0;
 }
 
 .menu-items {
@@ -281,10 +283,129 @@ body {
 
 .wrapper {
   width: 1280px;
-  max-width: 85%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-header {
+.header-index {
   background-color: #f6a823;
+}
+
+.header-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-contact {
+  background-image: url(../assets/contact-image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.header-blog {
+  background-image: url(../assets/blog-image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.who {
+  padding: 50px 100px 50px 50px;
+}
+
+.dog-favourites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.favourite-things {
+  padding: 50px 100px 50px 50px;
+}
+
+.umbrellas-travelled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.where-travelled {
+  padding: 50px 100px 50px 50px;
+}
+
+.font-awesome {
+  margin: 50px 0 50px 0;
+}
+
+.font-awesome1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card,
+.cardi {
+  border: 1px solid black;
+  width: 400px;
+}
+
+.font-awesome2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.journey-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.journey {
+  padding: 50px 100px 50px 50px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+.body-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-info {
+  border: 1px solid black;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+input[type=text] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

@@ -10,14 +10,14 @@
 </head>
 <body>
 
-    <header>
+    <header class="header-contact">
         <nav>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">sophie</a></li>
-                <li><a href="#blog">blog</a></li>
-                <li><a href="#contact">contact</a></li>
+            <ul class="menu">
+                <li class="menu-items menu-items--white"><a href="#home">home</a></li>
+                <li class="menu-items"><a href="#">about</a></li>
+                <li class="menu-items menu-items--large"><a href="#">sophie</a></li>
+                <li class="menu-items"><a href="#blog">blog</a></li>
+                <li class="menu-items"><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +25,7 @@
     <main>
         <h1>get in touch</h1>
 
-        <section>
+        <section class="body-contact wrapper">
             <div class="contact-info">
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-twitter"></i>
@@ -38,10 +38,14 @@
             <p>M5V2D5</p>
             </div>
 
-            <form action="" method="" class="" name="">
+            
+            <form action="#" method="#" class="contact-form" name="contact-form">
+                <label for="user-name" class="sr-only">Name</label>
                 <input type="text" id="user-name" name="user-mame" placeholder="Name">
+                <label for="user-email" class="sr-only">Email address</label>
                 <input type="text" id="user-email" name="user-email" placeholder="Email address">
-                <textarea name="user-message" id="message" cols="50" rows="10" maxlength="200">Message</textarea>
+                <label for="message" class="sr-only">Message</label>
+                <textarea name="user-message" id="message" cols="50" rows="10">Message</textarea>
                 <button>submit</button>
             </form>
         </section>

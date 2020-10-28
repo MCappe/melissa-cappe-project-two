@@ -1,6 +1,8 @@
 .menu {
     display: flex;
     justify-content: center;
+    background-color: $orangey-yellow;
+    margin: 0;
 }
 
 .menu-items {
@@ -14,3 +16,5 @@
         text-transform: uppercase;
     }
 }
+
+

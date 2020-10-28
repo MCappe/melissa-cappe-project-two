@@ -10,20 +10,65 @@
 </head>
 <body>
 
-    <header>
+    <header class="header-blog">
         <nav>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">sophie</a></li>
-                <li><a href="#blog">blog</a></li>
-                <li><a href="#contact">contact</a></li>
+            <ul class="menu">
+                <li class="menu-items menu-items--white"><a href="#home">home</a></li>
+                <li class="menu-items"><a href="#">about</a></li>
+                <li class="menu-items menu-items--large"><a href="#">sophie</a></li>
+                <li class="menu-items"><a href="#blog">blog</a></li>
+                <li class="menu-items"><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <h1>blog</h1>
+
+        <div class="about-sophie">
+            <img src="../Sophie/assets/blog-image-2.jpg" alt="">
+            <h3>about sophie</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magni ab ullam. <a href="#">find out more.</a></p>
+        </div>
+        <div class="recent-posts">
+            <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+            </ul>
+        </div>
+
+        <article>
+            <h2>why i became a blogger</h2>
+            <p>Monday October 8th, 2018 by <span class="sophies-name">Sophie Barlow</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum libero necessitatibus ipsa ad. Modi sapiente fugit excepturi earum. Ipsa accusamus vero veritatis suscipit nemo enim, natus sed voluptate odit, magnam ex quos eveniet cum, dolor ducimus consequuntur eaque unde. Eligendi facilis dicta exercitationem nostrum repellat ipsa error hic vitae animi at molestiae officia quia consectetur, reprehenderit soluta mollitia voluptatibus officiis minus expedita cupiditate vel provident nam? Non consectetur molestias architecto adipisci distinctio praesentium pariatur eius rerum dolorem officia veniam nobis id minima magnam, vero assumenda quo nulla! Repellendus voluptas cum sequi blanditiis non voluptatibus, repellat rerum placeat, ipsum quis eaque ducimus necessitatibus quidem ad, beatae laudantium? Voluptatum officia ab autem odit amet possimus rerum! Dolor porro doloribus provident deleniti nostrum tempore, illum ea aspernatur adipisci, dolore nisi tempora sit unde molestias officia vitae possimus aliquam! Fuga, ipsa ducimus! Nostrum id sed ex beatae corrupti dicta eius quae, vero sit consequuntur cum, numquam itaque assumenda tempore accusantium praesentium deleniti officia reprehenderit accusamus ratione laudantium laborum temporibus? Quibusdam unde iste, molestias repudiandae voluptas id ducimus tenetur, qui sunt minima dignissimos? Laboriosam, quasi laborum blanditiis voluptatem distinctio unde optio atque enim, fugit fugiat vero vel in. Sunt maxime cum itaque commodi! Sit libero consequatur itaque, accusantium doloremque sint modi, ducimus adipisci id error expedita ratione consequuntur in vitae mollitia deleniti? Eos incidunt impedit numquam nihil facilis commodi, sequi laboriosam nemo consectetur dolorem eveniet reiciendis unde asperiores excepturi doloribus accusantium aliquid. Dolorum corporis vitae unde sapiente. Et, fuga! Porro quo, voluptatibus corporis esse quasi asperiores nulla eos impedit voluptatum, reiciendis voluptas iusto omnis at harum illum mollitia cupiditate vitae? Tempore, velit! Dolores maiores expedita explicabo qui dignissimos cupiditate! Iste iure amet tempore dolores ducimus magni tenetur fugit numquam quasi consequatur quia, et ullam facere pariatur, molestias, consequuntur distinctio esse dolorum dolorem officia inventore eaque?</p>
+        </article>
+
+        <section>
+            <div class="reviews">
+                <div class="review review1">
+                    <img src="../Sophie/assets/blog-image-3.jpg" alt="">
+                    <h4>Tuesday October 9th, 2018 by Jeremy</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta dolores iusto voluptatibus architecto eligendi molestias dicta fugiat maxime officiis, ad distinctio! Maxime, quisquam natus? Nam, voluptates! Labore neque quidem accusantium.</p>
+                </div>
+                <div class="review review2">
+                    <img src="../Sophie/assets/blog-image-4.jpg" alt="">
+                    <h4>Wednesday October 10th, 2018 by Julia</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum earum expedita, hic esse quod odio veniam dicta eius laudantium dignissimos magni corrupti, molestias non temporibus rerum magnam, accusantium cum porro.</p>
+                </div>
+            </div>
+        </section>
+
+        <form action="#" method="#" class="contact-form" name="contact-form">
+            <label for="user-name" class="sr-only">Name</label>
+            <input type="text" id="user-name" name="user-mame" placeholder="Name">
+            <label for="user-email" class="sr-only">Email address</label>
+            <input type="text" id="user-email" name="user-email" placeholder="Email address">
+            <label for="message" class="sr-only">Comment</label>
+            <textarea name="user-message" id="message" cols="50" rows="10">Comment</textarea>
+            <button>post comment</button>
+        </form>
         
     </main>
 

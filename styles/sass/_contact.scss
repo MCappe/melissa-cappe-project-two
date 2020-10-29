@@ -29,9 +29,25 @@
 }
 
 .contact-info {
-    border: 1px solid black;
-    padding: 20px;
+    padding: 30px;
     margin-right: 20px;
+    background: white;
+    margin-bottom: 125px;
+}
+
+.contact-info i {
+    color: $orangey-yellow;
+    font-size: 2rem;
+    padding-right: 20px;
+}
+
+.info-email {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+
+.contact-info p {
+    line-height: .3;
 }
 
 input[type=text] {

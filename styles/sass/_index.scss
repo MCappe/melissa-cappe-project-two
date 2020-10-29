@@ -27,10 +27,25 @@ header {
     box-shadow: 20px 20px white;
 }
 
+.header-index h1 {
+    padding-left: 100px;
+}
+
 // Section Styles
 
 .who {
     padding: 50px 100px 50px 50px;
+}
+
+.who a,
+.dog-favourites a,
+.where-travelled a,
+.journey a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: $accent;
+    padding: 10px 20px 10px 20px;
+    color: $black;
 }
 
 .dog-favourites {
@@ -62,20 +77,31 @@ header {
     padding: 100px 0 100px 0;
 }
 
+.font-awesome i {
+    font-size: 2rem;
+    background: $orangey-yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
 .font-awesome1 {
     display: flex;
     justify-content: center;
 }
 
-.card,
-.cardi {
-    border: 1px solid black;
+.top-row,
+.bottom-row {
     width: 400px;
 }
 
 .font-awesome2 {
     display: flex;
     justify-content: center;
+}
+
+.arena img {
+    height: 400px;
+    width: 100%;
 }
 
 .journey-section {
@@ -86,7 +112,9 @@ header {
 }
 
 .journey-image {
+    margin-left: 100px;
     box-shadow: 20px 20px $orangey-yellow;
+    
 }
 
 .journey {

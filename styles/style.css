@@ -286,8 +286,23 @@ header {
           box-shadow: 20px 20px white;
 }
 
+.header-index h1 {
+  padding-left: 100px;
+}
+
 .who {
   padding: 50px 100px 50px 50px;
+}
+
+.who a,
+.dog-favourites a,
+.where-travelled a,
+.journey a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #05afc1;
+  padding: 10px 20px 10px 20px;
+  color: #2c2c2c;
 }
 
 .dog-favourites {
@@ -325,6 +340,13 @@ header {
   padding: 100px 0 100px 0;
 }
 
+.font-awesome i {
+  font-size: 2rem;
+  background: #f6a823;
+  padding: 10px;
+  border-radius: 50%;
+}
+
 .font-awesome1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,9 +356,8 @@ header {
           justify-content: center;
 }
 
-.card,
-.cardi {
-  border: 1px solid black;
+.top-row,
+.bottom-row {
   width: 400px;
 }
 
@@ -347,6 +368,11 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.arena img {
+  height: 400px;
+  width: 100%;
 }
 
 .journey-section {
@@ -361,6 +387,7 @@ header {
 }
 
 .journey-image {
+  margin-left: 100px;
   -webkit-box-shadow: 20px 20px #f6a823;
           box-shadow: 20px 20px #f6a823;
 }
@@ -415,6 +442,38 @@ header {
   margin-left: 10px;
 }
 
+.blog-image {
+  background: white;
+  padding: 20px;
+}
+
+.recent-posts {
+  background: white;
+  margin-top: 10px;
+}
+
+article {
+  background: white;
+  border-bottom: 4px solid #f6a823;
+  margin-bottom: 20px;
+  padding: 20px 10px 20px 10px;
+}
+
+.review1,
+.review2 {
+  background: white;
+  padding: 20px;
+}
+
+.review1 {
+  margin-bottom: 20px;
+}
+
+.review2 {
+  border-bottom: 4px solid #f6a823;
+  margin-bottom: 20px;
+}
+
 .contact {
   background: #f0efed;
 }
@@ -445,9 +504,25 @@ header {
 }
 
 .contact-info {
-  border: 1px solid black;
-  padding: 20px;
+  padding: 30px;
   margin-right: 20px;
+  background: white;
+  margin-bottom: 125px;
+}
+
+.contact-info i {
+  color: #f6a823;
+  font-size: 2rem;
+  padding-right: 20px;
+}
+
+.info-email {
+  font-weight: bold;
+  padding: 10px 0 10px 0;
+}
+
+.contact-info p {
+  line-height: .3;
 }
 
 input[type=text] {
@@ -495,5 +570,9 @@ p {
 
 h1 {
   font-size: 8rem;
+  text-transform: uppercase;
+}
+
+h2 {
   text-transform: uppercase;
 }

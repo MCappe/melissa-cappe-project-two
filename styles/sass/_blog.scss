@@ -1,3 +1,7 @@
+.blog {
+    background: $white-shade;
+}
+
 // Header Styles
 
 .header-blog {
@@ -5,21 +9,27 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    
+    position: relative;
+    margin-bottom: 80px;
 }
 
-// Section Styles
+.header-blog h1 {
+    position: absolute;
+    bottom: -107px;
+    left: 150px;
+    text-transform: uppercase;
+}
+
+// Section styles
 
 .main-blog {
-    display: grid;
-    grid-template-columns: 50%;
-    gap: 20px;
+    display: flex;
 }
 
-// .recent-posts {
-//     grid
-// }
+.col1 {
+    margin-right: 10px;
+}
 
-article {
-    grid-column-start: 1;
+.col2 {
+    margin-left: 10px;
 }

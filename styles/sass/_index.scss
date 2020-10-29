@@ -34,7 +34,9 @@ header {
 // Section Styles
 
 .who {
-    padding: 50px 100px 50px 50px;
+    padding: 80px 150px 80px 150px;
+    background: $white-shade;
+    height: 300px;
 }
 
 .who a,
@@ -53,7 +55,13 @@ header {
 }
 
 .dog-image {
-    box-shadow: -20px -20px $rust-red;
+    // box-shadow: -20px -20px $rust-red;
+    background: $rust-red;
+}
+
+.dog-image img {
+    padding-left: 100px;
+    width: 600px;
 }
 
 .favourite-things {
@@ -66,10 +74,18 @@ header {
 
 .where-travelled {
     padding: 50px 100px 50px 50px;
+    text-align: right;
 }
 
 .beach-chair-image {
-    box-shadow: 20px 20px $orangey-yellow;
+    // box-shadow: 20px 20px $orangey-yellow;
+    background: $orangey-yellow;
+    
+}
+
+.beach-chair-image img {
+    width: 600px;
+    padding-right: 100px;
 }
 
 .font-awesome {

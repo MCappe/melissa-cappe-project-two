@@ -58,11 +58,17 @@ header {
 .dog-image {
     // box-shadow: -20px -20px $rust-red;
     background: $rust-red;
+    position: relative;
+    top: -20px;
+    
 }
 
 .dog-image img {
     padding-left: 100px;
     width: 600px;
+    position: relative;
+    top: -15px;
+    left: -15px;
 }
 
 .favourite-things {
@@ -81,12 +87,17 @@ header {
 .beach-chair-image {
     // box-shadow: 20px 20px $orangey-yellow;
     background: $orangey-yellow;
+    position: relative;
+    bottom: -30px;
     
 }
 
 .beach-chair-image img {
     width: 600px;
     padding-right: 100px;
+    position: relative;
+    top: -15px;
+    left: -15px;
 }
 
 .font-awesome {

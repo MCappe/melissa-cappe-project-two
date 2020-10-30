@@ -19,7 +19,7 @@ i.fa-bars {
 
 .menu-items {
     list-style: none;
-    padding: 10px;
+    padding: 20px 10px;
     font-size: 2rem;
     // font-family: $main-font;
     & a {
@@ -27,6 +27,16 @@ i.fa-bars {
         text-decoration: none;
         text-transform: uppercase;
     }
+}
+
+.menu-items-white a {
+    color: white;
+}
+
+.sophie {
+    padding: 8px 20px 10px 20px;
+    font-size: 4rem;
+    text-transform: uppercase;
 }
 
 @media (max-width: 940px) {

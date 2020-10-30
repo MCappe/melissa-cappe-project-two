@@ -36,20 +36,39 @@ li {
 
 p {
     font-size: 2rem;
+    // font-family: $main-font;
+    // font-weight: 400;
 }
 
 h1 {
     font-size: 8rem;
     text-transform: uppercase;
+    font-family: $heading-font;
 }
 
 h2 {
     text-transform: uppercase;
+    font-family: $main-font;
+    // font-size: 3rem;
+    // padding: 0 20px 0 20px;
 }
 
 // form {
 //     margin: auto;
 // }
+
+.skipLink {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    color: black;
+}
+
+.skipLink:focus {
+    left: 0;
+}
 
 input {
     width: 48.5%;

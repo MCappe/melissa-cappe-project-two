@@ -30,7 +30,7 @@
 
 .contact-info {
     padding: 30px;
-    margin-right: 20px;
+    margin-right: 30px;
     background: white;
     margin-bottom: 125px;
 }
@@ -50,3 +50,26 @@
     line-height: .3;
 }
 
+@media (max-width: 940px) {
+}
+
+
+@media (max-width: 768px) {
+}
+
+
+@media (max-width: 480px) {
+    .header-contact h1 {
+        bottom: 100px;
+        left: 80px;
+        text-transform: uppercase;
+}
+    .body-contact {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-bottom: 30px;
+        width: 100%;
+}
+}

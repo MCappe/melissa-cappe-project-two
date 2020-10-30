@@ -1,3 +1,15 @@
+i.fa-bars {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 3rem;
+    visibility: hidden;
+}
+
+#check {
+    display: none;
+}
+
 .menu {
     display: flex;
     justify-content: center;
@@ -15,6 +27,42 @@
         text-decoration: none;
         text-transform: uppercase;
     }
+}
+
+@media (max-width: 940px) {
+}
+
+
+@media (max-width: 768px) {
+}
+
+
+@media (max-width: 480px) {
+    i.fa-bars{
+        visibility: visible;
+        font-size: 3rem;
+        transform: scale(1.5,1);
+        color: $black;
+    }
+
+    input:checked + nav {
+        display: block;
+    }
+
+    #check {
+        position: absolute;
+        left: -100000px;
+    }
+
+    header nav {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        // background-color: #f4f4f4de;
+        padding: 20px;
+        display: none;
+    }
+
 }
 
 

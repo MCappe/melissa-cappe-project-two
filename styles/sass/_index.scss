@@ -72,13 +72,13 @@
 }
 
 .dog-image img {
-    box-shadow: 10px 10px $rust-red;
-    // padding-left: 100px;
+    box-shadow: -113px -15px $rust-red, -15px -15px $rust-red;
     width: 600px;
-    z-index: 1;
-    top: -15px;
-    left: -15px;
     margin-bottom: 20px;
+    // z-index: 1;
+    top: -30px;
+    left: -20px;
+    
 }
 
 .favourite-things {
@@ -92,10 +92,10 @@
 
 
 .beach-chair-image img {
-    box-shadow: -10px -10px $orangey-yellow;
+    box-shadow: 15px 15px $orangey-yellow, 113px 15px $orangey-yellow;
     width: 600px;
     margin-top: 20px;
-    z-index: 1;
+    // z-index: 1;
     top: -15px;
     left: -15px;
 }
@@ -173,6 +173,10 @@
     .header-index h1 {
         z-index: 999;
     }
+
+    // .index-h1 {
+    //     z-index: 1000;
+    // }
 
     .journey-section {
         flex-direction: column;

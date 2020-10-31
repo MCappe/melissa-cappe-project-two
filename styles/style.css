@@ -394,13 +394,12 @@ i.fa-bars {
 }
 
 .dog-image img {
-  -webkit-box-shadow: 10px 10px #a82706;
-          box-shadow: 10px 10px #a82706;
+  -webkit-box-shadow: -113px -15px #a82706, -15px -15px #a82706;
+          box-shadow: -113px -15px #a82706, -15px -15px #a82706;
   width: 600px;
-  z-index: 1;
-  top: -15px;
-  left: -15px;
   margin-bottom: 20px;
+  top: -30px;
+  left: -20px;
 }
 
 .favourite-things {
@@ -413,11 +412,10 @@ i.fa-bars {
 }
 
 .beach-chair-image img {
-  -webkit-box-shadow: -10px -10px #f6a823;
-          box-shadow: -10px -10px #f6a823;
+  -webkit-box-shadow: 15px 15px #f6a823, 113px 15px #f6a823;
+          box-shadow: 15px 15px #f6a823, 113px 15px #f6a823;
   width: 600px;
   margin-top: 20px;
-  z-index: 1;
   top: -15px;
   left: -15px;
 }

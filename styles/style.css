@@ -287,7 +287,7 @@ i.fa-bars {
   text-transform: uppercase;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   i.fa-bars {
     visibility: visible;
     font-size: 3rem;
@@ -349,7 +349,7 @@ i.fa-bars {
 .who {
   padding: 80px 150px 80px 150px;
   background: #f0efed;
-  max-height: 350px;
+  height: 100%;
 }
 
 .who a,
@@ -390,8 +390,8 @@ i.fa-bars {
 
 .dog-image {
   background: #a82706;
-  z-index: 0;
   top: -20px;
+  margin-top: -20px;
 }
 
 .dog-image img {
@@ -503,6 +503,23 @@ i.fa-bars {
 .card2,
 .card3 {
   width: 30%;
+}
+
+@media (max-width: 768px) {
+  .circle-text {
+    top: 60px;
+    z-index: 999;
+  }
+  .header-image img {
+    height: 50%;
+  }
+  .dog-favourites,
+  .umbrellas-travelled {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .blog {

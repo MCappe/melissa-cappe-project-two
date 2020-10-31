@@ -44,10 +44,6 @@ i.fa-bars {
     text-transform: uppercase;
 }
 
-@media (max-width: 940px) {
-}
-
-
 @media (max-width: 768px) {
     i.fa-bars{
         visibility: visible;
@@ -58,6 +54,11 @@ i.fa-bars {
 
     input:checked + nav {
         display: block;
+        z-index: 99999;   
+    }
+
+    .sophie {
+        display: none;
     }
 
     #check {
@@ -72,12 +73,6 @@ i.fa-bars {
         padding: 20px;
         display: none;
     }
-}
-
-
-@media (max-width: 480px) {
-    
-
 }
 
 

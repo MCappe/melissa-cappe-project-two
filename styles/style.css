@@ -297,6 +297,10 @@ i.fa-bars {
   }
   input:checked + nav {
     display: block;
+    z-index: 99999;
+  }
+  .sophie {
+    display: none;
   }
   #check {
     position: absolute;
@@ -365,13 +369,14 @@ i.fa-bars {
   letter-spacing: 1px;
 }
 
-.who a:hover,
+.who a:hover, .who a:focus,
 .dog-favourites a:hover,
+.dog-favourites a:focus,
 .where-travelled a:hover,
-.journey a:hover {
-  background-color: #f0efed;
-  color: #05afc1;
-  border: 1px solid #2c2c2c;
+.where-travelled a:focus,
+.journey a:hover,
+.journey a:focus {
+  background: #06dcf3;
 }
 
 .who p,
@@ -388,18 +393,14 @@ i.fa-bars {
   display: flex;
 }
 
-.dog-image {
-  background: #a82706;
-  top: -20px;
-  margin-top: -20px;
-}
-
 .dog-image img {
-  padding-left: 100px;
+  -webkit-box-shadow: 10px 10px #a82706;
+          box-shadow: 10px 10px #a82706;
   width: 600px;
   z-index: 1;
   top: -15px;
   left: -15px;
+  margin-bottom: 20px;
 }
 
 .favourite-things {
@@ -411,15 +412,11 @@ i.fa-bars {
   text-align: right;
 }
 
-.beach-chair-image {
-  background: #f6a823;
-  z-index: 0;
-  bottom: -30px;
-}
-
 .beach-chair-image img {
+  -webkit-box-shadow: -10px -10px #f6a823;
+          box-shadow: -10px -10px #f6a823;
   width: 600px;
-  padding-right: 100px;
+  margin-top: 20px;
   z-index: 1;
   top: -15px;
   left: -15px;
@@ -505,10 +502,33 @@ i.fa-bars {
   width: 30%;
 }
 
+@media (max-width: 940px) {
+  .header-index h1 {
+    z-index: 999;
+  }
+  .journey-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .journey-image {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-left: 0;
+  }
+  .journey-image img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .circle-text {
     top: 60px;
     z-index: 999;
+  }
+  .index-h1 {
+    visibility: hidden;
   }
   .header-image img {
     height: 50%;
@@ -519,6 +539,17 @@ i.fa-bars {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .dog-image img,
+  .beach-chair-image img {
+    width: 100%;
+  }
+  .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
   }
 }
 
@@ -707,6 +738,21 @@ button {
   font-size: 1.4rem;
 }
 
+@media (max-width: 940px) {
+  .blog-image {
+    text-align: center;
+  }
+  .blog-image h3 {
+    text-align: center;
+  }
+  .blog-image p {
+    text-align: center;
+  }
+  .blog-image a {
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   .header-blog h1 {
     bottom: 100px;
@@ -757,11 +803,11 @@ button {
 }
 
 .contact-info {
-  padding: 30px;
+  padding: 20px;
   margin-right: 30px;
   background: white;
   height: 250px;
-  width: 35%;
+  width: 50%;
 }
 
 .get-in-touch {
@@ -775,6 +821,10 @@ button {
   padding-right: 20px;
 }
 
+.contact-info i:hover, .contact-info i:focus {
+  color: #a82706;
+}
+
 .info-email {
   font-weight: bold;
   padding: 10px 0 10px 0;
@@ -783,6 +833,12 @@ button {
 .contact-info p {
   line-height: .3;
   font-size: 1.6rem;
+}
+
+@media (max-width: 940px) {
+  .contact-info {
+    width: 70%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -800,6 +856,7 @@ button {
   .contact-info {
     margin-bottom: 30px;
     width: 100%;
+    text-align: center;
   }
   form {
     width: 100%;

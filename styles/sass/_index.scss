@@ -52,16 +52,12 @@
     color: $black;
     font-family: $main-font;
     letter-spacing: 1px;
+    &:hover,
+    &:focus {
+        background: lighten($accent, 10);
+    }
 }
 
-.who a:hover,
-.dog-favourites a:hover,
-.where-travelled a:hover,
-.journey a:hover {
-    background-color: $white-shade;
-    color: $accent;
-    border: 1px solid $black;
-}
 
 .who p,
 .dog-favourites p,
@@ -75,21 +71,14 @@
     display: flex;   
 }
 
-
-.dog-image{
-    background: $rust-red;
-    // position: static;
-    top: -20px;
-    margin-top: -20px;
-    
-}
-
 .dog-image img {
-    padding-left: 100px;
+    box-shadow: 10px 10px $rust-red;
+    // padding-left: 100px;
     width: 600px;
     z-index: 1;
     top: -15px;
     left: -15px;
+    margin-bottom: 20px;
 }
 
 .favourite-things {
@@ -101,17 +90,11 @@
     text-align: right;
 }
 
-.beach-chair-image {
-    background: $orangey-yellow;
-    // position: static;
-    z-index: 0;
-    bottom: -30px;
-    
-}
 
 .beach-chair-image img {
+    box-shadow: -10px -10px $orangey-yellow;
     width: 600px;
-    padding-right: 100px;
+    margin-top: 20px;
     z-index: 1;
     top: -15px;
     left: -15px;
@@ -187,6 +170,23 @@
 }
 
 @media (max-width: 940px) {
+    .header-index h1 {
+        z-index: 999;
+    }
+
+    .journey-section {
+        flex-direction: column;
+    }
+
+    .journey-image {
+        box-shadow: none;
+        margin-left: 0;
+    }
+
+    .journey-image img {
+        width: 100%;
+        
+    }
 }
 
 
@@ -194,6 +194,10 @@
     .circle-text {
         top: 60px;
         z-index: 999;
+    }
+
+    .index-h1 {
+        visibility: hidden;
     }
 
     
@@ -204,6 +208,19 @@
     .dog-favourites,
     .umbrellas-travelled {
         flex-direction: column;
+        
+    }
+
+    .dog-image img,
+    .beach-chair-image img {
+        width: 100%;
+    }
+
+    
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
     }
     
 }

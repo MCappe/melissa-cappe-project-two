@@ -5,9 +5,10 @@
     height: 65vh;
 }
 
-header {
-    position: relative;
+.header-index {
+    display: flex;
 }
+
 
 .circle-text {
     position: absolute;
@@ -37,7 +38,7 @@ header {
 .who {
     padding: 80px 150px 80px 150px;
     background: $white-shade;
-    height: 350px;
+    max-height: 350px;
 }
 
 .who a,
@@ -49,6 +50,24 @@ header {
     background-color: $accent;
     padding: 10px 20px 10px 20px;
     color: $black;
+    font-family: $main-font;
+    letter-spacing: 1px;
+}
+
+.who a:hover,
+.dog-favourites a:hover,
+.where-travelled a:hover,
+.journey a:hover {
+    background-color: $white-shade;
+    color: $accent;
+    border: 1px solid $black;
+}
+
+.who p,
+.dog-favourites p,
+.where-travelled p,
+.journey p {
+    padding-bottom: 15px;
 }
 
 .dog-favourites,
@@ -59,7 +78,8 @@ header {
 .dog-image {
     // box-shadow: -20px -20px $rust-red;
     background: $rust-red;
-    position: relative;
+    // position: relative;
+    z-index: 0;
     top: -20px;
     // margin-top: -20px;
     
@@ -68,7 +88,8 @@ header {
 .dog-image img {
     padding-left: 100px;
     width: 600px;
-    position: relative;
+    // position: relative;
+    z-index: 1;
     top: -15px;
     left: -15px;
     // margin-top: -20px;
@@ -87,7 +108,8 @@ header {
 .beach-chair-image {
     // box-shadow: 20px 20px $orangey-yellow;
     background: $orangey-yellow;
-    position: relative;
+    // position: relative;
+    z-index: 0;
     bottom: -30px;
     // margin-bottom: -30px;
     
@@ -96,7 +118,8 @@ header {
 .beach-chair-image img {
     width: 600px;
     padding-right: 100px;
-    position: relative;
+    // position: relative;
+    z-index: 1;
     top: -15px;
     left: -15px;
     // margin-top: -20px;
@@ -113,12 +136,21 @@ header {
     background: $orangey-yellow;
     padding: 10px;
     border-radius: 50%;
+    text-decoration: none;
+    color: $black;
 }
 
 .font-awesome1,
 .font-awesome2 {
     display: flex;
     justify-content: center;
+}
+
+.fa-span {
+    padding-left: 10px;
+    font-family: $main-font;
+    font-size: 2rem;
+    color: $black;
 }
 
 .top-row,
@@ -168,6 +200,7 @@ header {
 
 
 @media (max-width: 768px) {
+    
     
 }
 

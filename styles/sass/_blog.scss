@@ -7,6 +7,7 @@
 .header-blog {
     background-image: url(../assets/blog-image-1.jpg);
     background-size: cover;
+    background-position: 30% 100%;
     background-repeat: no-repeat;
     height: 500px;
     position: relative;
@@ -39,6 +40,21 @@
     padding: 20px;
 }
 
+.blog-image h3 {
+    font-size: 2.2rem;
+    font-family: $main-font;
+}
+
+.blog-image p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.blog-image a {
+    text-decoration: none;
+    color: $dark-grey-blue;
+}
+
 .recent-posts {
     background: white;
     margin-top: 10px;
@@ -47,7 +63,9 @@
 
 .recent-posts h3 {
     text-transform: uppercase;
-    padding: 20px 0 0 20px;
+    padding: 20px 0 0 25px;
+    font-family: $main-font;
+    font-size: 2.2rem;
 }
 
 .recent-posts li::before {
@@ -58,15 +76,29 @@
 
 .recent-posts li {
     line-height: 1.5;
+    font-family: $main-font;
+    font-size: 1.6rem;
 }
 
 article {
     background: white;
     border-bottom: 4px solid $orangey-yellow;
     margin-bottom: 20px;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px 20px 20px;
     width: 100%;
 }
+
+article h2 {
+    font-size: 2.4rem;
+}
+
+article p {
+    font-size: 1.6rem;
+    font-family: $main-font;
+    line-height: 1.5;
+}
+
+
 
 span {
     color: $dark-grey-blue;
@@ -77,8 +109,7 @@ span {
 .review2 {
     background: white;
     padding: 20px;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .review1 {
@@ -107,6 +138,16 @@ span {
 .review1-content h4,
 .review2-content h4 {
     color: $dark-grey-blue;
+    font-size: 1.6rem;
+    font-family: $main-font;
+    font-style: italic;
+}
+
+.review1-content p,
+.review2-content p {
+    font-size: 1.6rem;
+    font-family: $main-font;
+    line-height: 1.5;
 }
 
 form {
@@ -139,6 +180,8 @@ button {
     padding-top: 5px;
     padding-bottom: 5px;
     border: none;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
 }
 
 @media (max-width: 940px) {
@@ -146,16 +189,24 @@ button {
 
 
 @media (max-width: 768px) {
-    //     .main-blog {
-    //         flex-direction: column;
-    //     }
-        
+    .header-blog h1 {
+    bottom: 100px;
+    left: 100px;
+}
+    
+    .main-blog {
+        flex-direction: column;
+    }
 
-    //     .col2 {
-    //         margin-top: 20px;
-    //         margin-left: 0;
-    //         width: 100%;
-    // }
+    .col1 {
+        width: 100%;
+    }
+
+    .col2 {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
 

@@ -25,7 +25,7 @@
 
 .body-contact {
     display: flex;
-    justify-content: center;
+    width: 100%;
 }
 
 .contact-info {
@@ -33,6 +33,12 @@
     margin-right: 30px;
     background: white;
     height: 250px;
+    width: 35%;
+}
+
+.get-in-touch {
+    width: 100%;
+    margin-right: 80px;
 }
 
 .contact-info i {
@@ -48,7 +54,7 @@
 
 .contact-info p {
     line-height: .3;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 @media (max-width: 940px) {
@@ -56,10 +62,6 @@
 
 
 @media (max-width: 768px) {
-}
-
-
-@media (max-width: 480px) {
     .header-contact h1 {
         bottom: 100px;
         left: 80px;
@@ -73,4 +75,13 @@
         margin-bottom: 30px;
         width: 100%;
 }
+    form {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    
 }

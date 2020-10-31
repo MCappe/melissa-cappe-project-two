@@ -12,6 +12,9 @@
     <a href="#main-content" class="skipLink">Skip to main content</a>
 
     <header class="header-blog">
+        <label for="check"><i class="fa fa-bars"></i></label>
+        <input type="checkbox" id="check">
+        
         <nav>
             <ul class="menu">
                 <li class="menu-items"><a href="./index.html">home</a></li>
@@ -73,10 +76,16 @@
         </section>
 
         <form action="#" method="#" class="contact-form" name="contact-form">
+            <div class="inputs">
+            <div class="name-input">
             <label for="user-name" class="sr-only">Name</label>
             <input type="text" id="user-name" name="user-mame" placeholder="Name">
+            </div>
+            <div class="email-input">
             <label for="user-email" class="sr-only">Email address</label>
             <input type="text" id="user-email" name="user-email" placeholder="Email address">
+            </div>
+            </div>
             <label for="message" class="sr-only">Comment</label>
             <textarea name="user-message" id="message" placeholder="Comment"></textarea>
             <button>post comment</button>

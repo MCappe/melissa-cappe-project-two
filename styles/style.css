@@ -342,7 +342,7 @@ header {
 .who {
   padding: 80px 150px 80px 150px;
   background: #f0efed;
-  height: 300px;
+  height: 350px;
 }
 
 .who a,
@@ -356,7 +356,8 @@ header {
   color: #2c2c2c;
 }
 
-.dog-favourites {
+.dog-favourites,
+.umbrellas-travelled {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,12 +379,6 @@ header {
 
 .favourite-things {
   padding: 50px 100px 50px 50px;
-}
-
-.umbrellas-travelled {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .where-travelled {
@@ -417,7 +412,8 @@ header {
   border-radius: 50%;
 }
 
-.font-awesome1 {
+.font-awesome1,
+.font-awesome2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,16 +424,8 @@ header {
 
 .top-row,
 .bottom-row {
-  width: 400px;
-}
-
-.font-awesome2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 50%;
+  padding: 20px;
 }
 
 .arena img {
@@ -463,19 +451,24 @@ header {
 }
 
 .journey {
-  padding: 50px 100px 50px 50px;
+  padding: 50px 100px 50px 100px;
 }
 
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 30%;
 }
 
 .blog {

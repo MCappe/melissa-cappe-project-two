@@ -51,13 +51,13 @@
     padding: 10px 20px 10px 20px;
     color: $black;
     font-family: $main-font;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     &:hover,
     &:focus {
         background: lighten($accent, 10);
     }
 }
-
 
 .who p,
 .dog-favourites p,
@@ -75,7 +75,6 @@
     box-shadow: -113px -15px $rust-red, -15px -15px $rust-red;
     width: 600px;
     margin-bottom: 20px;
-    // z-index: 1;
     top: -30px;
     left: -20px;
     
@@ -90,12 +89,10 @@
     text-align: right;
 }
 
-
 .beach-chair-image img {
     box-shadow: 15px 15px $orangey-yellow, 113px 15px $orangey-yellow;
     width: 600px;
     margin-top: 20px;
-    // z-index: 1;
     top: -15px;
     left: -15px;
 }
@@ -174,9 +171,16 @@
         z-index: 999;
     }
 
-    // .index-h1 {
-    //     z-index: 1000;
-    // }
+    .dog-favourites,
+    .umbrellas-travelled {
+        flex-direction: column;
+        
+    }
+
+    .dog-image img,
+    .beach-chair-image img {
+        width: 100%;
+    }
 
     .journey-section {
         flex-direction: column;
@@ -189,7 +193,6 @@
 
     .journey-image img {
         width: 100%;
-        
     }
 }
 
@@ -206,7 +209,11 @@
 
     
     .header-image img {
-        height: 50%;
+        height: 400px;
+    }
+
+    .who {
+        padding: 80px 50px 80px 50px;
     }
     
     .dog-favourites,
@@ -219,17 +226,9 @@
     .beach-chair-image img {
         width: 100%;
     }
-
-    
-
     .cards {
         flex-direction: column;
         width: 100%;
     }
-    
-}
-
-
-@media (max-width: 480px) {
     
 }

@@ -1,3 +1,5 @@
+// Background colour for entire page
+
 .blog {
     background: $white-shade;
 }
@@ -98,8 +100,6 @@ article p {
     line-height: 1.5;
 }
 
-
-
 span {
     color: $dark-grey-blue;
 }
@@ -170,7 +170,6 @@ textarea {
     height: 300px;
 }
 
-
 button {
     width: 100%;
     margin: 10px 0 80px 0;
@@ -207,7 +206,7 @@ button {
     .header-blog h1 {
     bottom: 100px;
     left: 100px;
-}
+    }
     
     .main-blog {
         flex-direction: column;
@@ -222,9 +221,4 @@ button {
         margin-left: 0;
         width: 100%;
     }
-}
-
-
-@media (max-width: 480px) {
-
 }

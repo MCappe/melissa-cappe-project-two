@@ -1,3 +1,5 @@
+// Background colour for entire page
+
 .contact {
     background: $white-shade;
 }
@@ -66,7 +68,7 @@
 @media (max-width: 940px) {
     .contact-info {
         width: 70%;
-}
+    }
 }
 
 
@@ -75,7 +77,8 @@
         bottom: 100px;
         left: 80px;
         text-transform: uppercase;
-}
+    }
+
     .body-contact {
         flex-direction: column;
     }
@@ -84,14 +87,9 @@
         margin-bottom: 30px;
         width: 100%;
         text-align: center;
-}
+    }
     form {
         width: 100%;
     }
 
-}
-
-
-@media (max-width: 480px) {
-    
 }

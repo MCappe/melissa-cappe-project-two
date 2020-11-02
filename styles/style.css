@@ -887,7 +887,7 @@ footer a {
   color: #f0efed;
   text-decoration: none;
   font-size: 1.5rem;
-  font-weight: normal;
+  font-family: "Roboto", sans-serif;
 }
 
 html {

@@ -1,3 +1,5 @@
+// Footer Styles
+
 footer {
     background-color: $black;
     text-align: center;
@@ -8,7 +10,6 @@ footer {
         color: $white-shade;
         text-decoration: none;
         font-size: 1.5rem;
-        // font-family: $main-font;
-        font-weight: normal; // why does this never work for me?
+        font-family: $main-font;
     }
 }

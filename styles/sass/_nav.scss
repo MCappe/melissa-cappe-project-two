@@ -1,3 +1,5 @@
+// Nav Styles
+
 i.fa-bars {
     position: absolute;
     top: 25px;
@@ -43,6 +45,8 @@ i.fa-bars {
     font-size: 4rem;
     text-transform: uppercase;
 }
+
+// Nav Responsive
 
 @media (max-width: 768px) {
     i.fa-bars{

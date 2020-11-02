@@ -1,10 +1,10 @@
-// Background colour for entire page
+// Background colour for entire contact page
 
 .contact {
     background: $white-shade;
 }
 
-// Header Styles
+// Contact Header Styles
 
 .header-contact {
     background-image: url(../assets/contact-image-1.jpg);
@@ -24,7 +24,7 @@
     text-transform: uppercase;
 }
 
-// Section Styles
+// Contact Section Styles
 
 .body-contact {
     display: flex;
@@ -64,6 +64,8 @@
     line-height: .3;
     font-size: 1.6rem;
 }
+
+// Contact Responsive
 
 @media (max-width: 940px) {
     .contact-info {

@@ -183,6 +183,18 @@ button {
     font-size: 1.4rem;
 }
 
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    background: $white-shade;
+}
+
+button:hover,
+button:focus {
+    background: lighten($accent, 10);
+}
+
 // Blog Responsive  
 
 @media (max-width: 940px) {

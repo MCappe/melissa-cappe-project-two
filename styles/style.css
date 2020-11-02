@@ -751,6 +751,18 @@ button {
   font-size: 1.4rem;
 }
 
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  background: #f0efed;
+}
+
+button:hover,
+button:focus {
+  background: #06dcf3;
+}
+
 @media (max-width: 940px) {
   .blog-image {
     text-align: center;
